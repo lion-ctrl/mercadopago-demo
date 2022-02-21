@@ -1,0 +1,12 @@
+{{> header_layout}}
+<div class="container">
+    <h1 class="my-2">{{id}}</h1>
+    <p>
+      We appreciate your business! If you have any questions.
+    </p>
+    <form action="/refund" method="post">
+    <input type="hidden" name="payment_id" value="{{id}}">
+        <button type="submit" class="btn btn-warning">Do you want to refund the product?</button>
+    </form>
+</div>
+{{> footer_layout}}
