@@ -12,8 +12,7 @@ import { Response } from 'express';
 import * as mercadopago from 'mercadopago';
 
 mercadopago.configure({
-  access_token:
-    'TEST-5231862993970280-021817-ebe8d3f5801f39434aeb49aa10e2d9e9-251934142',
+  access_token: 'private-key',
 });
 
 @Controller()
